@@ -34,8 +34,8 @@
         tableau.extensions.initializeDialogAsync().then(() => {
           ReactDOM.render(
               React.createElement(TableauUI.Button, {
-                  kind: 'outline'
-              }, 'Refresh All'),
+                  kind: 'default'
+              }, 'Refresh Data'),
               document.getElementById('refresh')
           );
         })
